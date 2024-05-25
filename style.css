@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: cyan;
+    color: #333;
+  }
+  
+  .wrapper {
+    background: linear-gradient(45deg, pink, cyan);
+    display: flex;
+  }
+  
+table{background-color: rgb(212, 190, 190);}
+
+  aside.sidebar {
+    background: linear-gradient(270deg, pink, cyan);
+    width: 200px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  aside.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  .logo {
+    position: fixed;
+    top: 20px;
+    left: 20px; 
+    z-index: 10; 
+  }
+  
+  .logo img {
+    width: 50px; 
+    height: auto; 
+  }
+  
+  aside.sidebar nav li {
+    margin-bottom: 10px;
+  }
+  .sidebar.hidden {
+    display: none;
+  }
+  .toggle-sidebar {
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  aside.sidebar nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  aside.sidebar nav a:hover {
+    background-color: #eee;
+  }
+  
+  main.content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .user-info {
+    width:25%;
+    text-align: center;
+    margin-bottom: 20px;
+    position: absolute;
+    top:0px;
+    right:10px;
+    background: linear-gradient(45deg, cyan, gray);
+    color: rgb(0, 0, 0);
+  }
+  
+  .user-info h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .grades,
+  .homework {
+    margin-bottom: 20px;
+  }
+  
+footer p{padding-top:20px;}
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 0%;
+  }  

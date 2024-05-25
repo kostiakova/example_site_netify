@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Електронний щоденник</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <aside class="sidebar" style="background: linear-gradient(270deg, pink, cyan);">
+        <img src="logo.svg" alt="Логотип" onclick="window.location.href='main.html';">
+      <h2>Навігація</h2>
+      <nav>
+        <ul>
+            <li><a href="rozklad.html">Розклад уроків</a></li>
+            <li><a href="index.html#grades">Оцінки</a></li>
+            <li><a href="index.html#homework">Домашні завдання</a></li>
+            <li><a href="notifs.html">Повідомлення</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main class="content">
+      <section class="user-info">
+        <p>Ім'я: Ганна</p>
+        <p>Прізвище: Петрівна (Кл. Кер.)</p>
+      </section>
+      <section id="grades" class="grades">
+        <h2>Оцінки: Іванов Іван</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Предмет</th>
+              <th>Оцінка</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Математика</td>
+              <td>9</td>
+            </tr>
+            <tr>
+              <td>Українська мова</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td>Англійська мова</td>
+              <td>7</td>
+            </tr>
+          </tbody>
+        </table>
+<!--  -->
+            <!--  -->
+        <table>
+            <colgroup>
+                <col />
+                <col span="1" class="batman" />
+                <col span="1" class="flash" />
+              </colgroup>
+              <tr>
+                <td></td>
+                <th scope="col"><img src="https://png.pngtree.com/png-clipart/20230423/original/pngtree-add-button-png-image_9082271.png" style="width:80px; height: auto; position: absolute;top: 250px;; left: 600px;"
+                    alt="">
+                    <br><h4 style="position:relative; left: 80px; margin:0px;">Додати оцінку</h4></th>
+                <th scope="col"><img src="https://png.pngtree.com/png-clipart/20231116/original/pngtree-minus-icon-icon-photo-png-image_13598148.png" style="width:80px; height: auto; position: absolute;top:250px; left: 900px;"
+                    alt="">
+                    <br><h4>Видалити оцінку</h4></th>
+              </tr>
+        </table>
+      </section>
+      <section id="homework" class="homework">
+        <h2 style="margin-top: 900px;">Домашнє завдання</h2>
+        <ul>
+          <li>Математика --- Прочитати параграф 10-15 у підручнику з математики.</li>
+          <li>Укр. Мова --- Виконати вправи 1-5 на сторінці 123 з підручника з української мови.</li>
+          <li>Англійська мова --- Написати есе на тему "Моя улюблена тварина".</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+  <footer>
+    <p>&copy; 2024 Електронний щоденник by Kostia Koval</p>
+    <p><img src="logo.svg" alt="Logo" style="width:100px; height: auto;"></p>
+  </footer>
+  <script src="script.js">
+  </script>
+</body>
+</html>
